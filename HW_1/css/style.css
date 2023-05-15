@@ -177,6 +177,7 @@ body {
 .section-three__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 2fr 1fr;
     justify-content: space-between;
     column-gap: 5.2vw;
 }
@@ -191,6 +192,7 @@ body {
 .item-03 {
     grid-column: 3/4;
     grid-row: 1/3;
+    margin-top: 2.76vw;
 }
 .section-three__number-title{
     position: relative;
@@ -309,9 +311,13 @@ body {
     margin: 0.399vw 4.905vw 0.714vw 4.764vw;
 }
 .card__image {
+    background-image: url("../img/Mikayla_photo.svg");
+    background-position: 48% 30%;
+    background-size: 180%; 
+    width: 2.992vw;
     height: 2.992vw;
     border-radius: 50%;
-    margin: 0 5vw 0.544vw;
+    margin: 0 6.2vw 0.544vw;  
 }
 .card__person-name {
     font-family: Lato;
